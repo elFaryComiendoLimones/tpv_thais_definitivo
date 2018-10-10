@@ -1,0 +1,33 @@
+<div class="layout-container">
+
+    <header role="banner">
+        {{ page.header }}
+        {{ page.social }}
+    </header>
+
+
+    <main role="main">
+        <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
+
+        {{ page.primary_menu }}
+        <div class="layout-content">
+            {{ page.breadcrumb }}
+            {{ kint() }}
+            {{ page.content }}
+        </div>{# /.layout-content #}
+
+        {% if page.sidebar_first %}
+            <aside class="layout-sidebar-first" role="complementary">
+                {{ page.sidebar_first }}
+            </aside>
+        {% endif %}
+
+    </main>
+
+    {% if page.footer %}
+        <footer role="contentinfo">
+            {{ page.footer }}
+        </footer>
+    {% endif %}
+
+</div>{# /.layout-container #}

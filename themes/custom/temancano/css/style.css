@@ -1,0 +1,54 @@
+body{
+    background: #68C3EF;
+}
+.layout-container {
+    background: #fff;
+    margin: 40px auto;
+    max-width: 1100px;
+    box-shadow: 0px 0px 20px #0F303F;
+}
+.region-header {
+    padding: 20px;
+}
+.site-name a{
+    color: #039BE5;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+ul.menu {
+    background: #039BE5;
+    padding: 20px;
+    margin-left: 0 !important;
+}
+
+ul.menu li.menu-item{
+    display: inline-block;
+}
+
+
+li.menu-item a {
+    font-size: 16px;
+    text-decoration: none;
+}
+.is-active {
+    color: #fff !important;
+}
+.layout-content {
+    width: 66.6%;
+    display: inline-block;
+    min-height: 450px;
+}
+aside.layout-sidebar-first {
+    width: 32.3%;
+    display: inline-block;
+}
+.region-content {
+    margin: 20px;
+}
+#block-poxi-powered {
+    padding: 20px;
+}
+#edit-keys, #edit-submit {
+    padding: 10px;
+}
